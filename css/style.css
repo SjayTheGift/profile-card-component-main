@@ -14,9 +14,10 @@
 body{
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.2;
     background: var(--dark-cyan);
     margin: 0 50px;
+    font-weight: bold;
 }
 
 .container{
@@ -26,6 +27,7 @@ body{
 }
 .bold-text{
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 /* .container::before{
@@ -40,6 +42,11 @@ body{
 
 .gray{
     color: var(--dark-gray);
+}
+
+.card-footer .gray{
+    font-size: 12px;
+    letter-spacing: 2px;
 }
 
 .card{
