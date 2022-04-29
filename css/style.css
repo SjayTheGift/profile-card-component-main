@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --dark-cyan:hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background: var(--dark-cyan);
+    margin: 0 50px;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.bold-text{
+    font-weight: bold;
+}
+
+/* .container::before{
+    content: "";
+    background: url(../images/bg-pattern-top.svg) no-repeat;
+    position:absolute;
+    top: 1px;
+    transform: rotateX(180deg) rotateY(180deg) scaleX(-1);
+    width: 100%;
+    height: 200px;
+} */
+
+.gray{
+    color: var(--dark-gray);
+}
+
+.card{
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    padding: 80px 0px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+img{
+    border-radius: 50%;
+    /* border: 6px #fff solid; */
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0 0 0 6px #fff,
+    inset 0  0 0 6px #fff,
+    inset 0  0 0 6px #fff,
+    inset 0  0 0 6px #fff,
+    inset 0  0 0 6px #fff;
+    width: 100px;
+    height: 100px;
+}
+
+.card::before{
+    content: "";
+    background: url('../images/bg-pattern-card.svg');
+    border-radius: 20px 20px 0 0;
+    height: 135px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    height: 100%;
+}
+
+hr{
+    opacity: 0.5;
+    margin: 20px 0;
+}
